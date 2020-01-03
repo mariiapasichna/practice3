@@ -14,7 +14,9 @@ public class Backpack {
         backpack.remove(box);
     }
 
-    public List<Box> getBackpack() {
-        return backpack;
+    @Override
+    public String toString() {
+        return
+                "backpack=" + backpack;
     }
 }

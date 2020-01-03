@@ -15,7 +15,6 @@ public class Box {
         return pricePerWeight;
     }
 
-
     public double getWeight() {
         return weight;
     }
